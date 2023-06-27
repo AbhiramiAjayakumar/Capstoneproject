@@ -1,0 +1,49 @@
+<div class="background">
+  <app-navbar></app-navbar>
+  
+  <section class="h-100">
+    <div class="container py-5 h-40">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div class="card-body p-md-5 mx-md-4">
+                  <div class="text-center">
+                    <h1 class="mt-1 mb-5 pb-1">E learning Platform</h1>
+                  </div>
+                  <form (ngSubmit)="SignUp()">
+                    <label class="form-label" for="username">Username</label>
+                    <div class="form-outline mb-4">
+                      <input type="text" id="username" class="form-control" placeholder="Username"  name="uname" [(ngModel)]="uname"  required />
+                    </div>
+                    <label class="form-label" for="email">E-mail</label>
+                    <div class="form-outline mb-4">
+                      <input type="email" id="email" class="form-control" placeholder="E-mail" name="uemail" [(ngModel)]="uemail" required />
+                    </div>
+                    <label class="form-label" for="password">Password</label>
+                    <div class="form-outline mb-4">
+                      <input type="password" id="password" placeholder="Password" class="form-control" name="upassword" [(ngModel)]="upassword"  required />
+                    </div>
+                    <!-- <label class="form-label" for="confirmPassword">Confirm Password</label>
+                    <div class="form-outline mb-4">
+                      <input type="password" id="confirmPassword" placeholder="Confirm Password" class="form-control" name="uconfirmpwd" [(ngModel)]="uconfirmpwd"  required />
+                    </div> -->
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button id="signup-btn" class="btn btn-primary fa-lg gradient-custom-2 mb-3"  type="submit">Register</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-white px-4 py-4 p-md-5 mx-md-4">
+                  <h1 class="mb-4">Embrace Learning, Join Today!</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

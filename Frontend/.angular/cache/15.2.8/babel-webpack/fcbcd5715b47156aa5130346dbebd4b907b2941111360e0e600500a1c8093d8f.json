@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Topic {}","map":{"version":3,"mappings":"AAAA,OAAM,MAAOA,KAAK","names":["Topic"],"sourceRoot":"","sources":["C:\\Users\\245074\\ustproject\\final_project\\frontend1\\src\\app\\Topic.ts"],"sourcesContent":["export class Topic {\n   \n"]},"metadata":{},"sourceType":"module","externalDependencies":[]}

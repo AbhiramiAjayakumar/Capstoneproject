@@ -1,0 +1,71 @@
+.gradient-custom-2 {
+    
+   /* background:linear-gradient( rgba(82, 19, 88, 0.751), rgba(151, 122, 151, 0.751))   */
+   background-color:rgb(136, 72, 134) ;
+}
+    
+    
+    div>h1
+    {
+        
+            font-family: 'Satisfy', cursive;
+            text-align: center;
+    }
+ 
+    h2>strong
+    {
+        font-family: 'Satisfy', cursive;
+        color:white;
+        font-size: larger;
+    }
+    #signup-btn {
+      border-color: white;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    .background {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        background-image: linear-gradient(to bottom, rgba(201, 201, 201, 0.454), rgba(190, 150, 208, 0.66));
+        background-size: cover;
+          background-position:center;
+          background-repeat: no-repeat;
+          width: 100vw;
+          /* position:relative; */
+       
+      min-height: 100%;
+     
+    }  
+    li.nav-item {
+        /* Add margin or padding to create spacing between the navigation items */
+        margin-right: 60px;
+      }
+
+    .navbar .nav-link {
+        color: white;
+      }
+      
+      
+    @media (min-width: 772px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width:769px) {
+    .gradient-custom-2 {
+     border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem; 
+    }
+    }
+    .background::after {
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    
+ 

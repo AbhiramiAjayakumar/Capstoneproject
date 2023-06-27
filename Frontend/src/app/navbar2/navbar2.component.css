@@ -1,0 +1,175 @@
+/* Revealing 3D Menu CSS */
+body
+{
+	font-family: sans-serif;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	background-color: #222;
+}
+#navtop
+{
+  background-color: #ffffff;
+}
+
+
+
+h2>strong
+{
+    font-family: 'Satisfy', cursive;
+    font-size: larger;
+    color: black
+  
+}
+
+.navbar .nav-link {
+  color:black;
+}
+.title {
+  margin-right: auto;
+
+}
+li.nav-item {
+  /* Add margin or padding to create spacing between the navigation items */
+  margin-right: 20px;
+}
+nav ul li a {
+  color: black; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+nav ul li a:hover {
+   background-color:   #8a5e93 /* Color on hover */
+}
+.navbar {
+  padding: 10px;
+}
+
+.title {
+  margin-right: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 400px;
+  margin-right: 10px;
+}
+
+#button {
+  background-color: #070707;
+  color: #fff;
+}
+
+#button:hover {
+  background-color: #8a5e93;
+}
+
+/* nav{
+ background-color:  rgb(0, 0, 0);
+}
+ */
+
+/* main page */
+
+
+/* navigation */
+.sidenav
+{
+	position: fixed;
+	left: -16em;
+	top:69px;
+	bottom: 0;
+	background-color: white;
+	border-right: 50px solid rgb(136, 72, 134);
+	
+	z-index: 1;
+	cursor: pointer;
+}
+
+.sidenav:after
+{
+	position: absolute;
+	content: ' ';
+	width: 0;
+	height: 0;
+	right: -70px;
+	top: 50%;
+	border-width: 15px 10px;
+	border-style: solid;
+	border-color: transparent transparent transparent #090909;
+}
+
+.sidenav ul
+{
+	width: 14em;
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+}
+
+.sidenav a:link, .sidenav a:visited
+{
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	line-height: 2.5em;
+	text-indent: 10px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 4px;
+	outline: 0 none;
+}
+
+.sidenav a:hover, .sidenav a:focus
+{
+	color: #fff;
+	background-color: darken(#a3377a, 20%);
+	text-shadow: 0 0 4px #fff;
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+}
+
+/* hovering */
+
+.sidenav:hover
+{
+	left: 0;
+}
+
+
+
+
+/* typography */
+footer
+{
+	margin-top: 2em;
+	border-top: 1px dotted #999;
+}
+
+h1
+{
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 0 0 0.2em 0;
+}
+
+p
+{
+	line-height: 1.3em;
+	margin: 0 0 1.5m 0;
+}
+
+.lead {
+  font-weight:100;
+  font-size:21px;
+}
+
+picture {
+  width:100%;
+  height:auto;
+  display:block;
+}

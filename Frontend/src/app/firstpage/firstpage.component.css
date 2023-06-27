@@ -1,0 +1,115 @@
+.navbar-brand {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  nav
+  {
+background-color: #0d0d0ef1;
+  }
+  .background {
+    display: flex;
+    flex-direction: column;
+
+
+    
+    
+      background-position:right;
+      background-image: linear-gradient(to bottom, rgba(201, 201, 201, 0.454), rgba(163, 157, 157, 0.724)), url("/assets/bg6.png");
+     
+      
+      /* padding-right: 90px; */
+      /* padding-left: 80px;  */
+      background-repeat: no-repeat;
+      width: 100vw;
+
+  }
+  .animated-description {
+    animation-name: fadeIn;
+    color:black;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+  }
+ 
+
+  .center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  body{
+    background-color:white ;
+    background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        width: 100vw;
+         min-height: 100%;
+  }
+
+  
+  
+  .container center-align
+  {
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+  }
+   
+  
+  div>h1,p,a{
+      text-align: center;
+      color:black
+  }
+  nav>h1{
+
+  
+  font-family: 'Satisfy', cursive;
+  }
+  div>h1{
+    font-family: 'Satisfy', cursive;
+    font-size:300%;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 140px;
+  }
+  .background::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .search-input {
+    width: 800px;
+    margin-right: 0.5rem;
+  }
+
+  .btn {
+    border-radius: 12px;
+    background-color:rgb(108, 95, 143) ;
+    color: white;
+  }

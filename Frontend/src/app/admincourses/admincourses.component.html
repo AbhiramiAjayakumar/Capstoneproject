@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<body>
+<app-navbar2 ></app-navbar2>
+<br>
+<br>
+
+  <div>
+    <button class="btn btn" id="bcolor" (click)="CreatenewCourse()">Add Course</button>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div *ngFor="let course of courses" class="card">
+      <div class="edit-container">
+        <a href="/home" class="edit-icon">
+          <i class="fas fa-pencil-alt"></i>
+        </a>
+        <img src={{course.imageurl}} class="card-img-top" alt="Course Image">
+        <figcaption class="txtover">{{course.title}}</figcaption>
+      </div>
+    </div>
+  </div>
+  
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

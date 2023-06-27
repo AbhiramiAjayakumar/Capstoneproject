@@ -1,0 +1,31 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .search-input {
+    width: 800px;
+    margin-right: 0.5rem;
+  }
+
+  .search-button {
+    border-radius: 12px;
+  }
+ .btn {
+    border-color:rgb(108, 95, 143);
+    background-color:rgb(108, 95, 143) ;
+    color:white;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
